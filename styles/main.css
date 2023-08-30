@@ -1,0 +1,50 @@
+/* Website Common Styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    background-color: #ffdee5;
+}
+
+/* Banner Section Styles */
+.banner{
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    margin-right: 0 100px 0 0;
+    padding: 50px 50px 100px 0;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 700;
+    color: #272727;
+    margin-bottom: 32px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #272727;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.banner .banner-image{
+    width: 400px;
+    padding: 50px 0 0 50px;
+}
+
+
+
+
+/* Primary Styles */
+.button-primary{
+    color: white;
+    background-color: #E55473;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 700;
+}
