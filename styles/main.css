@@ -35,7 +35,65 @@ body{
     padding: 50px 0 0 50px;
 }
 
+/* Featured Section */
+.featured{
+    text-align: center;
+    margin: 150px 240px;
+}
+.featured-flowers{
+    padding: 0 240px;
+    display: flex;
+    justify-content: space-around;
+}
+.featured-flower-info{
+    
+    width: 464px;
+}
+.featured-flower-info > a{
+    color: #272727;
+    font-weight: 24px;
+    font-weight: 700;
+    
+}
 
+.flower-container-1{
+    width: 464px;
+    height: 538px;
+    background-color: #f7cbe0;
+    border-radius: 300px 300px 0 0;
+    margin-bottom: 20px;
+    
+}
+.flower-container-2{
+    width: 464px;
+    height: 538px;
+    background-color: #f7cbe0;
+    border-radius: 300px 300px 0 0;
+    margin-bottom: 20px;
+}
+.flower-container-3{
+    width: 464px;
+    height: 538px;
+    background-color: #f7cbe0;
+    border-radius: 300px 300px 0 0;
+    margin-bottom: 20px;
+}
+.flower{
+    padding: 110px 0 0 0;
+}
+.flower-name{
+    font-size: 24px;
+}
+
+/* Common Section Style */
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+}
 
 
 /* Primary Styles */
