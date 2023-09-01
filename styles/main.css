@@ -1,6 +1,7 @@
 /* Website Common Styles */
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 main {
@@ -191,7 +192,7 @@ main {
     background-color: #111010;
     text-align: center;
     padding: 20px 0;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
 }
 
 .footer-description {
