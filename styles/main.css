@@ -119,6 +119,38 @@ main{
 }
 
 
+/* Subscription Section Style */
+.subscription{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subscription-content{
+    padding: 40px 0 10px 0;
+}
+.subscription-form{
+    padding-bottom: 60px;
+}
+#email-box{
+    padding: 10px 40px;
+}
+#subscription-button{
+    color: white;
+    background-color: #E55473;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+
 /* Common Section Style */
 .section-title{
     font-size: 40px;
