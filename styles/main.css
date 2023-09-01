@@ -1,89 +1,117 @@
 /* Website Common Styles */
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
 
-main{
+main {
     /* width: 80%; */
     margin: 0 auto;
 }
 
-.header{
+.logo-text-flower {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.logo-text-shop {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.header {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
 /* Banner Section Styles */
-.banner{
+.banner {
     margin: 0 100px;
     display: flex;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     margin-right: 0 100px 0 0;
     padding: 50px 50px 100px 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 80px;
     font-weight: 700;
     color: #272727;
     margin-bottom: 32px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     font-weight: 400;
     color: #272727;
     margin-top: 32px;
     margin-bottom: 32px;
 }
-.banner .banner-image{
+
+.banner .banner-image {
     width: 400px;
     padding: 50px 0 0 50px;
 }
 
 /* Featured Section */
 
-.featured{
+.featured {
     width: 70%;
     margin: 0 auto;
     padding: 10px 50px 10px 50px;
 }
-.featured-info{
+
+.featured-info {
     text-align: center;
     padding: 30px 200px;
 }
-.featured-flowers-container{
+
+.featured-flowers-container {
     display: flex;
     justify-content: space-between;
 }
-.featured-flower{
+
+.featured-flower {
     text-align: center;
 }
-.featured-flower > a{
+
+.featured-flower>a {
     color: #272727;
 }
-.flower{
-    
+
+.flower {
+
     width: 200px;
     height: 280px;
     border: 0;
     border-radius: 120px 120px 0 0;
 }
-.flower > img{
+
+.flower>img {
     width: 90%;
 }
-#flower-1{
+
+#flower-1 {
     background-color: rgba(167, 33, 98, 0.15);
 }
-#flower-2{
+
+#flower-2 {
     background-color: rgba(5, 151, 160, 0.15);
 }
-#flower-3{
+
+#flower-3 {
     background-color: rgba(71, 125, 17, 0.15);
 }
 
 
 /* Hot Deals Section Styles */
-.hot-deals{
+.hot-deals {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
@@ -91,7 +119,8 @@ main{
     padding: 30px 80px;
     margin-top: 50px;
 }
-.hot-deals-content{
+
+.hot-deals-content {
     width: 60%;
     text-align: center;
 }
@@ -99,28 +128,31 @@ main{
 
 /* Social Section Styles */
 
-.social{
+.social {
     width: 70%;
     margin: 0 auto;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.social-images-container{
+
+.social-images-container {
     display: flex;
     justify-content: space-between;
 }
-.social-image{
+
+.social-image {
     width: 25%;
     padding: 10px;
 }
-.social-image > img{
+
+.social-image>img {
     width: 100%;
 }
 
 
 /* Subscription Section Style */
-.subscription{
+.subscription {
     text-align: center;
     width: 70%;
     margin: 0 auto;
@@ -130,40 +162,74 @@ main{
     background-size: cover;
 }
 
-.subscription-content{
+.subscription-content {
     padding: 40px 0 10px 0;
 }
-.subscription-form{
+
+.subscription-form {
     padding-bottom: 60px;
 }
-#email-box{
-    padding: 10px 40px;
+
+#email-box {
+    padding: 10px 40px 10px 10px;
+    border: 0;
 }
-#subscription-button{
+
+#subscription-button {
     color: white;
     background-color: #E55473;
     border: 0;
-    border-radius: 8px;
+    border-radius: 6px;
     font-size: 20px;
     font-weight: 700;
-    padding: 10px;
+    padding: 8px;
 }
 
 
-
-/* Common Section Style */
-.section-title{
-    font-size: 40px;
-    font-weight: 700;
+/* Footer Section Styles */
+.footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 20px 0;
+    margin: 30px 0;
 }
-.section-description{
+
+.footer-description {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.copyright{
+    width: 40%;
+    text-align: center;
+    margin: 10px auto;
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
 }
 
 
-/* Primary Styles */
-.button-primary{
+/* Common Section Style */
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* Primary Button */
+.button-primary {
     color: white;
     background-color: #E55473;
     border: 0;
@@ -174,6 +240,6 @@ main{
 }
 
 /* Primary Color */
-.primary-color{
+.primary-color {
     color: #E55473;
 }
