@@ -146,7 +146,7 @@ nav a{
     justify-content: space-around;
     align-items: center;
     padding: 30px 80px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .hot-deals-content {
@@ -161,8 +161,8 @@ nav a{
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 120px;
 }
 
 .social-images-container {
@@ -220,7 +220,7 @@ nav a{
     background-color: #111010;
     text-align: center;
     padding: 20px 0;
-    margin: 30px 0 0 0;
+    margin: 60px 0 0 0;
 }
 
 .footer-description {
